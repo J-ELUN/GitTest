@@ -1,14 +1,14 @@
-"F:\demo\SUBDEV_SWITCH\Projects\Src\main.c"
+"F:\GitTest\SUBDEV_SWITCH\Projects\Src\main.c"
 -std=c99
 -ferror-limit=100
 -I
-F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\STM32L0xx_HAL_Driver\Inc
+F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\STM32L0xx_HAL_Driver\Inc
 -I
-F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\Inc
+F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\Inc
 -I
-F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include
 -I
-F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Include
+F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -I
@@ -16,13 +16,13 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 -I
-F:\demo\SUBDEV_SWITCH\Drivers\STM32L0xx_HAL_Driver\Inc
+F:\GitTest\SUBDEV_SWITCH\Drivers\STM32L0xx_HAL_Driver\Inc
 -I
-F:\demo\SUBDEV_SWITCH\Projects\Inc
+F:\GitTest\SUBDEV_SWITCH\Projects\Inc
 -I
-F:\demo\SUBDEV_SWITCH\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+F:\GitTest\SUBDEV_SWITCH\Drivers\CMSIS\Device\ST\STM32L0xx\Include
 -I
-F:\demo\SUBDEV_SWITCH\Drivers\CMSIS\Include
+F:\GitTest\SUBDEV_SWITCH\Drivers\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -DSTM32L053xx=1
@@ -215,8 +215,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=594176
 -D_GOANNA=1
--D__DATE__="Jul 21 2017"
--D__TIME__="13:56:32"
+-D__DATE__="Jul 28 2017"
+-D__TIME__="10:42:18"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

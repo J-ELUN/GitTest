@@ -88,7 +88,7 @@ int main(void)
   Zigbee_Init();
   Zigbee_Sleep(); 
   Zigbee_DeInit();
-     
+   //1  
   /*ADC_Init();*/
   
   while(1)

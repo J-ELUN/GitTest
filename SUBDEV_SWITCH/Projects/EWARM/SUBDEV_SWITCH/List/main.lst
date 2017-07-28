@@ -1,33 +1,34 @@
 ###############################################################################
 #
-# IAR ANSI C/C++ Compiler V7.30.1.7746/W32 for ARM        21/Jul/2017  13:56:34
+# IAR ANSI C/C++ Compiler V7.30.1.7746/W32 for ARM        28/Jul/2017  10:42:20
 # Copyright 1999-2014 IAR Systems AB.
 #
 #    Cpu mode     =  thumb
 #    Endian       =  little
-#    Source file  =  F:\demo\SUBDEV_SWITCH\Projects\Src\main.c
+#    Source file  =  F:\GitTest\SUBDEV_SWITCH\Projects\Src\main.c
 #    Command line =  
-#        F:\demo\SUBDEV_SWITCH\Projects\Src\main.c -D STM32L053xx -D
+#        F:\GitTest\SUBDEV_SWITCH\Projects\Src\main.c -D STM32L053xx -D
 #        USE_HAL_DRIVER -lc
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\List\ -o
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\Obj\ --debug
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\List\ -o
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\Obj\ --debug
 #        --endian=little --cpu=Cortex-M0+ -e --fpu=None --dlib_config
 #        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        7.0\arm\INC\c\DLib_Config_Full.h" -I
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\
-#        -I F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\Inc\ -I
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\
-#        -I F:\demo\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Include\
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\STM32L0xx_HAL_Driver\Inc\
+#        -I F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\Inc\ -I
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\
+#        -I
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\..\..\Drivers\CMSIS\Include\
 #        -Ohz --use_c++_inline -I "C:\Program Files (x86)\IAR Systems\Embedded
 #        Workbench 7.0\arm\CMSIS\Include\"
 #    List file    =  
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\List\main.lst
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\List\main.lst
 #    Object file  =  
-#        F:\demo\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\Obj\main.o
+#        F:\GitTest\SUBDEV_SWITCH\Projects\EWARM\SUBDEV_SWITCH\Obj\main.o
 #
 ###############################################################################
 
-F:\demo\SUBDEV_SWITCH\Projects\Src\main.c
+F:\GitTest\SUBDEV_SWITCH\Projects\Src\main.c
       1          /**
       2            ******************************************************************************
       3            * @file    Templates/Src/main.c 
@@ -118,7 +119,7 @@ F:\demo\SUBDEV_SWITCH\Projects\Src\main.c
      88            Zigbee_Init();
      89            Zigbee_Sleep(); 
      90            Zigbee_DeInit();
-     91               
+     91             //1  
      92            /*ADC_Init();*/
      93            
      94            while(1)
