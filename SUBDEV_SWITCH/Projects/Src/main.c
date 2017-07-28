@@ -86,7 +86,7 @@ int main(void)
   Led_Init();
   
   Zigbee_Init();
-  Zigbee_Sleep(); //zig init
+  Zigbee_Sleep(); 
   Zigbee_DeInit();
 
   /*ADC_Init();*/
