@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ANSI C/C++ Compiler V7.30.1.7746/W32 for ARM        28/Jul/2017  10:42:20
+# IAR ANSI C/C++ Compiler V7.30.1.7746/W32 for ARM        28/Jul/2017  10:43:08
 # Copyright 1999-2014 IAR Systems AB.
 #
 #    Cpu mode     =  thumb
@@ -119,7 +119,7 @@ F:\GitTest\SUBDEV_SWITCH\Projects\Src\main.c
      88            Zigbee_Init();
      89            Zigbee_Sleep(); 
      90            Zigbee_DeInit();
-     91             //1  
+     91             //2  
      92            /*ADC_Init();*/
      93            
      94            while(1)
